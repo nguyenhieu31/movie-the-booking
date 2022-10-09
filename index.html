@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>movie the booking</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- tiêu đề -->
+    <h1 class="title">Multiplex Theatre Showing Screen 1</h1>
+    <!-- chọn phim -->
+    <div class="choose_films">
+      <label for="films">Selected Films: </label>
+      <select name="films" id="films">
+        <option value="20" data="Big Mouth">Big Mouth</option>
+        <option value="16" data="Nô Lệ Của Quỷ 2">Nô Lệ Của Quỷ 2</option>
+        <option value="22" data="Quái Vật Sông Mêkong">Quái Vật Sông Mekong</option>
+      </select>
+    </div>
+    <div class="content">
+      <!-- hiện thị chọn chỗ ngồi -->
+      <div class="show_seat">
+        <div class="screen">
+          <span>screen</span>
+        </div>
+        <div class="container_seat">
+          <div class="item">
+            <div class="row_seat"><span>A</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>B</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>C</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>D</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>E</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>F</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row_seat"><span>G</span></div>
+            <div class="row">
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">1</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">2</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">3</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat">4</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">5</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">6</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">7</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">8</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">9</div>
+              </div>
+              <div class="col m-0 p-0">
+                <div class="seat" data-index="">10</div>
+              </div>
+              <div class="row_seat"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- thanh divided -->
+      <div class="divided"></div>
+      <!-- hiển thị thông tin  -->
+      <div class="show_info">
+        <div class="info_order">
+          <div class="box">
+            <label for="">Movie</label>
+            <span class="text">: hihi</span>
+          </div>
+          <div class="box">
+            <label for="">Time</label>
+            <span class="text">: hihi</span>
+          </div>
+          <div class="box">
+            <label for="">Tickets</label>
+            <span class="text">: hihi</span>
+          </div>
+          <div class="box">
+            <label for="">Seats</label>
+            <span class="text">: 0 seat</span>
+          </div>
+          <div class="box">
+            <label for="">Total</label>
+            <span class="text">: 0$</span>
+          </div>
+        </div>
+        <button class="btn">Book Now</button>
+        <div class="info_support">
+          <div class="item">
+            <div class="box"></div>
+            <span>Available</span>
+          </div>
+          <div class="item">
+            <div class="box sold"></div>
+            <span>Sold</span>
+          </div>
+          <div class="item">
+            <div class="box selected"></div>
+            <span>Selected</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- xác nhận đặt vé -->
+    <div class="wrapper">
+      <div class="display_info-order">
+        <div class="title_info">
+          <span class="title">Bạn đã đặt vé thành công</span>
+          <div class="icon">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="show_info">
+          <div class="info">
+            <div class="movie">
+              <label for="movie">Movie: </label>
+              <span class="text_info" name="movie"></span>
+            </div>
+            <div class="time">
+              <label for="time_movie">Time: </label>
+              <span class="text_info" name="time_movie"></span>
+            </div>
+            <div class="seats">
+              <label for="seats_cus">Seats: </label>
+              <span class="text_info" name="seats_cus">0 seats</span>
+            </div>
+          </div>
+          <div class="thank">
+            <span>THANK YOU</span>
+            <i class="fa-solid fa-heart"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <script src="../movie-the-booking/style.js"></script>
+</body>
+
+</html>
